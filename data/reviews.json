@@ -1,0 +1,10 @@
+[
+    {
+        "id": 1,
+        "user_id": 2,
+        "book_id": 7,
+        "rating": 5,
+        "comment": "Buku nya sangat bagus",
+        "created_at": "2025-11-29T10:31:30+07:00"
+    }
+]

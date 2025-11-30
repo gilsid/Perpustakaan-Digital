@@ -1,0 +1,93 @@
+[
+    {
+        "id": 1,
+        "title": "The Pragmatic Programmer",
+        "author": "Andrew Hunt, David Thomas",
+        "year": 1999,
+        "category": "programming",
+        "description": "A practical guide to software craftsmanship, covering best practices, design principles, and pragmatic tips.",
+        "cover": null,
+        "pdf": null,
+        "rating": 4.7,
+        "created_at": "2024-01-01T10:00:00+00:00",
+        "updated_at": "2024-01-01T10:00:00+00:00"
+    },
+    {
+        "id": 2,
+        "title": "Clean Code",
+        "author": "Robert C. Martin",
+        "year": 2008,
+        "category": "programming",
+        "description": "A handbook of agile software craftsmanship, focusing on writing readable, maintainable code.",
+        "cover": null,
+        "pdf": null,
+        "rating": 4.6,
+        "created_at": "2024-01-02T10:00:00+00:00",
+        "updated_at": "2024-01-02T10:00:00+00:00"
+    },
+    {
+        "id": 3,
+        "title": "1984",
+        "author": "George Orwell",
+        "year": 1949,
+        "category": "fiction",
+        "description": "A dystopian novel set in a totalitarian society under constant surveillance.",
+        "cover": null,
+        "pdf": null,
+        "rating": 4.4,
+        "created_at": "2024-01-03T10:00:00+00:00",
+        "updated_at": "2024-01-03T10:00:00+00:00"
+    },
+    {
+        "id": 4,
+        "title": "To Kill a Mockingbird",
+        "author": "Harper Lee",
+        "year": 1960,
+        "category": "fiction",
+        "description": "A novel of racial injustice and moral growth in the American South.",
+        "cover": null,
+        "pdf": null,
+        "rating": 4.8,
+        "created_at": "2024-01-04T10:00:00+00:00",
+        "updated_at": "2024-01-04T10:00:00+00:00"
+    },
+    {
+        "id": 5,
+        "title": "Sapiens: A Brief History of Humankind",
+        "author": "Yuval Noah Harari",
+        "year": 2011,
+        "category": "history",
+        "description": "An exploration of the history and impact of Homo sapiens on the world.",
+        "cover": null,
+        "pdf": null,
+        "rating": 4.5,
+        "created_at": "2024-01-05T10:00:00+00:00",
+        "updated_at": "2024-01-05T10:00:00+00:00"
+    },
+    {
+        "id": 6,
+        "title": "The Design of Everyday Things",
+        "author": "Don Norman",
+        "year": 2013,
+        "category": "design",
+        "description": "A classic on user-centered design and how everyday objects can be made more usable.",
+        "cover": null,
+        "pdf": null,
+        "rating": 4.3,
+        "created_at": "2024-01-06T10:00:00+00:00",
+        "updated_at": "2024-01-06T10:00:00+00:00"
+    },
+    {
+        "id": 7,
+        "title": "The Mystery of Cabin Island",
+        "author": "Franklin W Dixon",
+        "year": 2009,
+        "category": "history",
+        "description": "a mysteri",
+        "cover": null,
+        "pdf": "book_1764386062_3623.pdf",
+        "rating": 5,
+        "created_at": "2025-11-29T10:14:22+07:00",
+        "updated_at": "2025-11-29T10:31:30+07:00"
+    }
+]

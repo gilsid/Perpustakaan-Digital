@@ -1,0 +1,144 @@
+/* Basic custom styles for Online Library */
+body {
+    background-color: #f8f9fa;
+}
+
+.navbar-brand {
+    font-weight: 600;
+}
+
+/* Enhanced card styling */
+.card {
+    border: none;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.12);
+}
+
+.card .btn {
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card .btn:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 6px 12px rgba(13, 110, 253, 0.25);
+}
+
+.card-book-cover {
+    height: 220px;
+    object-fit: cover;
+    transition: transform 0.25s ease;
+}
+
+.card:hover .card-book-cover {
+    transform: scale(1.02);
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .card, .card .btn, .card-book-cover { transition: none !important; }
+}
+
+/* Optional: filters bar subtle styling */
+.filter-bar {
+    background: rgba(255, 255, 255, 0.75);
+    border: 1px solid rgba(0, 0, 0, 0.06);
+    border-radius: 0.75rem;
+    padding: 1rem;
+    backdrop-filter: blur(6px);
+}
+
+.book-description-short {
+    max-height: 4.5rem;
+    overflow: hidden;
+}
+
+.footer {
+    font-size: 0.875rem;
+}
+
+.hero {
+    padding: 3rem 1rem;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/online-library/uploads/images/max-shilov-9pIyqZrcMOc-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    border-radius: 0.75rem;
+}
+
+.hero h1 {
+    font-weight: 700;
+}
+
+.hero p {
+    font-size: 1.1rem;
+}
+
+/* Active nav link indicator */
+.navbar .nav-link.active {
+    font-weight: 600;
+    border-bottom: 3px solid #fff;
+    padding-bottom: calc(0.5rem - 3px);
+}
+
+/* Page header band */
+.page-header {
+    background: linear-gradient(135deg, rgba(13, 110, 253, 0.05), rgba(102, 16, 242, 0.05));
+    transition: all 0.3s ease;
+}
+
+.page-header h1 {
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+/* Featured books carousel */
+.featured-books-carousel {
+    padding: 1.5rem;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 0.75rem;
+    backdrop-filter: blur(10px);
+}
+
+.featured-book-card {
+    display: block;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.featured-book-card:hover {
+    transform: translateY(-4px);
+}
+
+.featured-book-image {
+    width: 100%;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.featured-book-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.featured-book-card:hover .featured-book-image img {
+    transform: scale(1.05);
+}
+
+.featured-book-info {
+    min-height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.featured-book-info p {
+    line-height: 1.3;
+}

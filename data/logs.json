@@ -1,0 +1,47 @@
+[
+    {
+        "id": 1,
+        "user_id": 1,
+        "action": "add_book",
+        "entity_type": "book",
+        "entity_id": 7,
+        "message": "Added book \"The Mystery of Cabin Island\"",
+        "created_at": "2025-11-29T10:14:22+07:00"
+    },
+    {
+        "id": 2,
+        "user_id": 1,
+        "action": "add_category",
+        "entity_type": "category",
+        "entity_id": null,
+        "message": "Added category \"Advanture\"",
+        "created_at": "2025-11-29T10:14:37+07:00"
+    },
+    {
+        "id": 3,
+        "user_id": 1,
+        "action": "add_category",
+        "entity_type": "category",
+        "entity_id": null,
+        "message": "Added category \"Comedy\"",
+        "created_at": "2025-11-29T10:14:42+07:00"
+    },
+    {
+        "id": 4,
+        "user_id": 1,
+        "action": "add_category",
+        "entity_type": "category",
+        "entity_id": null,
+        "message": "Added category \"Tes\"",
+        "created_at": "2025-11-29T10:15:52+07:00"
+    },
+    {
+        "id": 5,
+        "user_id": 1,
+        "action": "delete_category",
+        "entity_type": "category",
+        "entity_id": 8,
+        "message": "Deleted category",
+        "created_at": "2025-11-29T10:15:55+07:00"
+    }
+]

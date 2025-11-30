@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "name": "Programming",
+        "slug": "programming"
+    },
+    {
+        "id": 2,
+        "name": "Fiction",
+        "slug": "fiction"
+    },
+    {
+        "id": 3,
+        "name": "History",
+        "slug": "history"
+    },
+    {
+        "id": 4,
+        "name": "Design",
+        "slug": "design"
+    },
+    {
+        "id": 5,
+        "name": "Science",
+        "slug": "science"
+    },
+    {
+        "id": 6,
+        "name": "Advanture",
+        "slug": "advanture"
+    },
+    {
+        "id": 7,
+        "name": "Comedy",
+        "slug": "comedy"
+    }
+]
